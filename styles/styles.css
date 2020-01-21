@@ -1,0 +1,20 @@
+@font-face {
+	font-family: Futura;
+	src: url(../fonts/futura/unicode.futurab.ttf);
+}
+
+h1 {
+	font-family: Futura;
+	display: inline;
+}
+
+.logo-cabecera {
+	display: inline-block;
+	width: 80px;
+	transform: translateX(-200px;);
+}
+
+.texto-vertical {
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+}
