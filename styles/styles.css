@@ -1,14 +1,11 @@
+/* Estilos de fuentes tipográficas */
 @font-face {
 	font-family: Futura;
 	src: url(../fonts/futura/unicode.futurab.ttf);
 }
 
-.centrar-vertical {
-	display: flex;
- 	justify-content: center;
-    align-items: center;
-}
 
+/* Estilos de la cabecera */
 h1 {
 	font-family: Futura;
 	display: inline;
@@ -21,4 +18,8 @@ h1 {
 .texto-vertical {
 	writing-mode: vertical-lr;
 	transform: rotate(180deg);
+}
+
+.panoramica-cabecera {
+	height: 80px;
 }
