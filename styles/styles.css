@@ -8,10 +8,14 @@
 /**/
 
 body {
-	min-width: 350px;
+	min-width: 300px;
 	background-image: url(../images/fondo_pagina.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+  background-color: black;
+  background-position: center center;
+  background-attachment: fixed;
+
 }
 
 
@@ -21,6 +25,12 @@ h1 {
 	display: inline;
 	color: white;
 }
+
+.band-name {
+  font-family: Futura;
+  display: inline;
+  color: white;
+} 
 
 .logo-cabecera {
 	width: 80px;
