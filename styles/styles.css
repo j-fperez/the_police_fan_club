@@ -9,8 +9,7 @@
 
 body {
 	min-width: 300px;
-	/*background-image: url(../images/fondo_pagina.png);*/
-	background-image: url(../images/);
+	background-image: url(../images/fondo_pagina.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: black;
@@ -142,9 +141,10 @@ ol > li {
 	font-size: 0.8em;
 }
 
-.live_cd_songs {
+/* Quitada clase del ol del disco Live!*/
+/*.live_cd_songs {
 	font-size: 0.75em;
-}
+}*/
 
 .scroll-vertical::-webkit-scrollbar{
 	 display: none;
