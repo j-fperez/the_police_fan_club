@@ -145,10 +145,7 @@ ol > li {
 .live_cd_songs {
 	font-size: 0.75em;
 }
-/* flip card end */
 
-@media only screen and (min-width: 768px) {
-	.card-back {
-		height: auto;
-	}
+.scroll-vertical::-webkit-scrollbar{
+	 display: none;
 }
