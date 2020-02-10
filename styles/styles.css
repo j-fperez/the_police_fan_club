@@ -9,12 +9,13 @@
 
 body {
 	min-width: 300px;
-	background-image: url(../images/fondo_pagina.png);
+	/*background-image: url(../images/fondo_pagina.png);*/
+	background-image: url(../images/);
 	background-repeat: no-repeat;
 	background-size: cover;
-  background-color: black;
-  background-position: center center;
-  background-attachment: fixed;
+	background-color: black;
+	background-position: center center;
+	background-attachment: fixed;
 
 }
 
@@ -27,9 +28,9 @@ h1 {
 }
 
 .band-name {
-  font-family: Futura;
-  display: inline;
-  color: white;
+	font-family: Futura;
+	display: inline;
+	color: white;
 } 
 
 .logo-cabecera {
@@ -39,16 +40,22 @@ h1 {
 .texto-vertical {
 	writing-mode: vertical-lr;
 	transform: rotate(180deg);
+	max-height: 80px;
 }
 
 .panoramica-cabecera {
 	height: 80px;
 }
+/* */
 
-/* Navegación Responsive*/
+.margin-top-fix {
+	margin-top: 120px;
+}
+
+/* Navigation Responsive*/
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+	overflow: hidden;
+	background-color: #333;
 }
 
 .topnav a {
@@ -95,4 +102,53 @@ h1 {
     display: block;
     text-align: left;
   }
+}
+/* Navigation Responsive End */
+
+
+/* flip card */
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+
+}
+
+.card-front {
+  transform: rotateY(0deg);
+  text-align: center;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+
+ol > li {
+	font-size: 0.8em;
+}
+
+.live_cd_songs {
+	font-size: 0.75em;
+}
+/* flip card end */
+
+@media only screen and (min-width: 768px) {
+	.card-back {
+		height: auto;
+	}
 }
