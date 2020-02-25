@@ -153,3 +153,8 @@ ol > li {
 .card-flip-height {
   overflow-y: auto;
 }
+
+/* Altura de los videos en la página videos.html */
+.h-175 {
+	height: 320px;
+} 
